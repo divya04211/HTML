@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Video</title>
+    </head>
+    <body>
+        <div>
+            <h1>Audio</h1>
+           -> used to embed sound content in a document, such as music or other audio streams.<br>
+           -> The audio tag contains one or more
+            source tags with different audio sources. The browser will choose the first source it supports.<br>
+           -> The text between the tags will only be displayed in browsers that do not support the audio element.<br>
+           ->There are three supported audio formats in HTML: MP3, WAV, and OGG.<br>
+
+        </div>
+        <!--we can give attributes to audio (autoplay,muted,loop,controls,src,preload)-->
+        <audio controls>
+            <source src="/audio_video/audio.mp3" type="audio/ogg">
+            <source src="/audio_video/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <audio controls src="/audio_video/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <hr>
+        <h1>Video</h1>
+           -> The video tag is used to embed video content in a document, such as a movie clip or other video streams.<br>
+           -> contains one or more source tags with different video sources. The browser will choose the first source it supports.<br>
+           ->The text between the tags will only be displayed in browsers that do not support the video element.<br>
+           ->There are three supported video formats in HTML: MP4, WebM, and OGG.<br>
+       <!--we can give attributes to videp (autoplay,muted,loop,controls,src,preload,height,width,poster)-->
+        
+        <video width="150px" height="150px" controls>
+            <source src="/audio_video/video.mp4 type=" type="video/mp4">
+            <source src="/audio_video/video.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+        <video controls src="/audio_video/video.mp4" type="video.mp4" autoplay height="150px" width="150px"></video>
+    </body>
+</html>
